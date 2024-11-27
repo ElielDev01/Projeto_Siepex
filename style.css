@@ -1,0 +1,157 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Definimos algumas características para nossa página, a cor do fundo, a fonte para os textos e
+alguns ajustes de tamanho  */
+body{
+    font-size: 100%;
+    list-style-type: none;
+    margin: 5rem;
+    color: aliceblue; 
+    background-color: #0a0a0a;
+    height: 100vh;
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 300;
+
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li{
+    margin: 30px;
+    list-style-type: none;
+}
+
+.navbar-link{
+    color: white;
+    background-color: #333;
+    padding: 8px 16px;
+    border-radius: 1rem;
+    transition: background-color 0.5s;
+}
+
+.navbar-link:hover{
+    background-color: #535353;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+}
+
+.intro-titulo{
+    color: beige;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro-texto{
+    font-weight: 300;
+    padding-top: 1.5rem;
+    max-width: 20rem;
+}
+
+.foto{
+    border-radius: 2rem;
+}
+
+.divisor{
+    border-top: 1px solid #fff;
+    width: 100%;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+
+.sobre-titulo{
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.sobre-titulo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre-texto{
+    font-weight: 700;
+    margin-top: 4rem;
+    color: #777777;
+    max-width: 36rem;
+}
+
+/* adicionamos uma margem para baixo */
+.exp{
+    margin-bottom: 5rem;
+}
+/* alinhamos o texto no centro e mudamos o tamanho 
+da fonte */
+.exp-titulo{
+    text-align: center;
+    font-size: 2.25rem;
+}
+/* adicionamos  o flex-box com um espaço ao redor dos 
+itens, adicionamos uma margem para cima e para baixo */
+.exp-conteudo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    /* o flex-wrap faz com que o nosso texto mude de 
+    linha caso ele seja muito longo */
+    flex-wrap: wrap;
+}
+/* adicionamos uma margem para cima, alteramos o 
+tamanho da fonte e mudamos a cor do texto */
+.exp-periodo{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #a3a3a3;
+}
+/* adicionamos uma margem para cima e mudamos
+o peso/grossura da fonte */
+.exp-func{
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+/* mudamos o tamanho da fonte e a cor do texto */
+.exp-emp{
+    font-size: 0.875rem;
+    color: #f3e8ff;
+}
+/* adicionamos uma margem em cima e em baixo 
+e mudamos a cor do texto*/
+.exp-descr{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #a3a3a3;
+}
+/* adicionamos um flex-box para os itens ficarem lado a lado
+e adicionamos um flex-wrap para mudar a linha caso o texto fique grande */
+.exp-tech-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* aqui estamos adicionando um efeito para que a experiência fique 
+com um efeito de botão */
+.exp-tech-item{
+    margin-right: 0.5rem; /* margem a direita */
+    border-radius: 0.25rem; /* deixa as bordas arredondadas */
+    background-color: #171717; /* muda a cor de fundo */
+    padding-left: 0.5rem; /* adiciona uma padding a esquerda */
+    padding-right: 0.5rem; /* adiciona uma padding a direita */
+    padding-top: 0.25rem; /* adiciona uma padding para cima */
+    padding-bottom: 0.25rem; /* adiciona uma padding para baixo */
+    font-weight: 500; /* muda o peso/grossura da fonte */
+    color: #6b21a8; /* muda a cor do texto */
+}
