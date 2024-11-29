@@ -52,13 +52,13 @@ body{
 .intro-titulo{
     color: beige;
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .intro-texto{
     font-weight: 300;
     padding-top: 1.5rem;
-    max-width: 20rem;
+    max-width: 36rem;
 }
 
 .foto{
@@ -87,6 +87,13 @@ body{
     font-weight: 700;
     margin-top: 4rem;
     color: #777777;
+    max-width: 39rem;
+}
+
+.sobre-texto-main{
+    font-weight: 700;
+    margin-top:  1rem;
+    color: #a5a5a5;
     max-width: 36rem;
 }
 
