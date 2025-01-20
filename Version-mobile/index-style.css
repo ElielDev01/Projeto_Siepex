@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-image: url("../assets/tech.jpg");
+    background-image: url("./assets-mobile/tech.jpg");
     background-size: cover;
     box-shadow: inset 0px 0px 80px black;
 }
