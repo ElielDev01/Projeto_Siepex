@@ -10,12 +10,6 @@ body{
     font-family: "Parkinsans", sans-serif;
 }
 
-header{
-    background-image: url("./assets-mobile/tech.jpg");
-    background-size: cover;
-    box-shadow: inset 0px 0px 80px black;
-}
-
 ul{
     display: flex;
     flex-direction: row;
@@ -43,27 +37,23 @@ a:hover{
 
 .intro{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem;
     gap: 2rem;
+    padding: 1.5rem;
 }
 
 .intro-textos{
     display:flex;
     flex-direction: column;
-    text-align: center;
-    text-align: justify;
+    
     gap: 5px;
     margin-top: 3rem;
 }
 
 .intro-titulo{
-    text-align: center;
-}
-
-.intro-img{
-    display: flex;
-    justify-content: center;
-   
+ 
 }
 
 
@@ -80,7 +70,7 @@ a:hover{
     text-align: justify;
     text-align: center;
     gap: 0.8rem;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .sobre-conteudo img{
