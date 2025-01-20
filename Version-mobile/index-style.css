@@ -56,6 +56,10 @@ a:hover{
     margin-top: 3rem;
 }
 
+.intro-titulo{
+    text-align: center;
+}
+
 .intro-img{
     display: flex;
     justify-content: center;
@@ -76,6 +80,7 @@ a:hover{
     text-align: justify;
     text-align: center;
     gap: 0.8rem;
+    padding: 2rem;
 }
 
 .sobre-conteudo img{
@@ -86,7 +91,7 @@ a:hover{
 
 .sobre-texto{
     color: rgb(153, 153, 153);
-    
+    text-align: center;
 }
 
 .sobre-texto-main{
