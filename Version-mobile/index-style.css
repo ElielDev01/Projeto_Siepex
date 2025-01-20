@@ -40,7 +40,6 @@ a:hover{
     flex-direction: row;
     align-items: center;
     padding: 1.5rem;
-    gap: 1rem;
     padding: 1.5rem;
 }
 
@@ -48,7 +47,7 @@ a:hover{
     display:flex;
     flex-direction: column;
     
-    gap: 5px;
+    gap: 1rem;
 }
 
 .intro-titulo{
@@ -56,7 +55,7 @@ a:hover{
 }
 
 .intro-img{
-    width: 210px;
+    width: 310px;
     height: 320px;
     border-radius: 20px;
 }
@@ -65,8 +64,8 @@ a:hover{
 .divisor{
     border-top: 0.2rem solid rgb(34, 34, 34);
     width: 100%;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .sobre{
@@ -92,4 +91,15 @@ a:hover{
 .sobre-texto-main{
     margin-top: 20px;
     
+}
+
+.sobre-texto-main a{
+    background-color: black;
+    padding: 0px;
+    color: rgb(0, 154, 154);
+}
+
+.sobre-texto-main a:hover{
+    background-color: none;
+    color: rgb(0, 182, 182);
 }
